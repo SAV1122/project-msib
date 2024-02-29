@@ -1,0 +1,76 @@
+p{
+    color: red;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12pt;
+}
+
+body {
+    /* background: red; */
+    /* background-image: url(/img/header.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    padding: 20px;
+}
+
+fieldset, legend {
+    border-width: 1px;
+    border-color: brown;
+    border-radius: 30px;
+}
+
+legend {
+    padding: 10px;
+    background-color: blue;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+table {
+    border: 10px;
+    margin: auto;
+}
+
+td, th {
+    padding: 50px;
+    border: 1px solid green;
+}
+
+tr:hover {
+    background-color: blue;
+    color: red;
+    font-size: 20pt;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+}
+
+#paragraf {
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    color: blue;
+}
+
+li, a.item:link, a.item:visited, a.item:active {
+    text-decoration: none;
+    list-style: none;
+    display: block;
+    float: left;
+    padding: 2px 3px;
+    background-color: blue;
+    padding: 20px;
+    text-align: center;
+}
+
+frameset, frame {
+    padding: 100px;
+    color: red;
+}
+
+header {
+    width: 100px;
+    height: 100px;
+}
